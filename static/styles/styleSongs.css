@@ -1,0 +1,65 @@
+#title-principal {
+  color: white;
+  text-align: center;
+}
+
+.container-songs .song .boton-song {
+  border-radius: 10px;
+  border-width: 4.5px;
+  font-size: large;
+  font-weight: 700;
+  padding: 10px 10px;
+  width: 125px;
+  height: 75px;
+  transition: all 0.9s ease;
+  text-decoration: none;
+}
+
+#title-principal {
+  padding: 30px;
+}
+
+.container-songs {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.container-songs .song .boton-song {
+  background-color: orange;
+  color: white;
+  border-color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-songs .song .boton-song:hover {
+  background-color: white;
+  color: orange;
+}
+.container-songs .song .title-songs, .container-songs .song .info-songs {
+  text-align: center;
+}
+.container-songs .song .info-songs {
+  font-size: larger;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 15px;
+}
+.container-songs .song img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 400px;
+  transition: all 0.9s ease;
+}
+.container-songs .song img:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 455px) {
+  .container-songs .song img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styleSongs.css.map */
